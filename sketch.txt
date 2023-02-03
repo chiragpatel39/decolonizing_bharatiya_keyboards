@@ -1,0 +1,21 @@
+
+
+Class Indic2Roman(word):
+      def normalize()
+      def inscript_keypress_count()
+      def inscript_to_roman()
+      def roman_keypress_count()
+      def get_count()
+          return indic, roman,indic_count,roman_count
+
+
+main():
+   inlines = list
+   global vyanjana, swara, inscript_to_keypress, swara_chihna, roman_to_keypress, guj2roman, indic_symbols
+   indic_symbols, vyanjana, swara, swara_chihna, inscript_to_roman, inscript_to_keypress, roman_to_keypress =  parse_yaml_file()
+ 
+   for line in inlines: 
+       words = line.split()
+       for w in words:
+           indic2roman = Indic2Roman()
+            
