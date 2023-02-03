@@ -1,6 +1,6 @@
 indic_to_roman_file :  resources/gujarati_to_roman.txt
-roman_to_keypress_file : roman_to_keypress.txt
-gujarati_to_keypress_file : gujarati_to_keypress.txt
+roman_to_keypress_file : resources/roman_to_keypress.txt
+gujarati_to_keypress_file : resources/gujarati_to_keypress.txt
 vynajana_lines : 1-36
 swara_lines : 37-48
 swara_chihna_lines : 49-62
