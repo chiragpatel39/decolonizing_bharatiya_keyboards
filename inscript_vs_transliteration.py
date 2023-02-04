@@ -107,30 +107,52 @@ def main():
     outfile = sys.argv[3]
     global indic_symbols, vyanjana, swara, swara_chihna, indic_to_roman, inscript_to_keypress, qwerty_to_keypress;
     indic_symbols, vyanjana, swara, swara_chihna, indic_to_roman, inscript_to_keypress, qwerty_to_keypress = get_lang_info(lang_)
-    
+
     #print (indic_symbols) 
     
     with open(infile,'r') as f:
         inlines = [line.strip() for line in f.readlines()]
     
+    indic_normlines = []
+    roman_lines = []
+    inscript_lkp_list = [] # list of keypress per line
+    qwerty_lkp_list = []  # same as above    
+    
     inscript_counter = 0
     qwerty_counter = 0 
     
+    
     for line in inlines:
+        normline = ""
+        roman_line = "" 
         words =  line.split()
         num_words = len(words)
-        inscript_counter += num_words - 1  # adding count for spaces. sentence with n words have n-1 spaces
-        qwerty_counter  += num_words - 1    
+        inscript_lkp = num_words - 1  # key press of current line. Added count for spaces 
+        qwerty_lkp = num_words - 1   # key press of current line 
+        #inscript_lkp = 0 # if we don't want to count spaces   
+        #qwerty_lkp = 0  
         for w in words:
             scriptObj = ScriptConverter(w)
             indic_word, roman_word, inscript_keypress,qwerty_keypress  = scriptObj.get_keypress_info()
-            inscript_counter += inscript_keypress
-            qwerty_counter += qwerty_keypress
+            inscript_lkp  += inscript_keypress
+            qwerty_lkp += qwerty_keypress
+            normline = normline + " " + indic_word
+            roman_line  = roman_line + " " + roman_word 
+        inscript_lkp_list.append(inscript_lkp)
+        qwerty_lkp_list.append(qwerty_lkp)
+        indic_normlines.append(normline)
+        roman_lines.append(roman_line)
+        inscript_counter += inscript_lkp
+        qwerty_counter += qwerty_lkp    
     
-     
-    print (inscript_counter, qwerty_counter)
     
-    return 0     
+    with open(outfile,'w') as f:
+        len_  = len(indic_normlines)   
+        for i in range(0,len_):
+            f.write(indic_normlines[i] + "\t" + roman_lines[i] + "\t" + str(inscript_lkp_list[i]) + "\t" +  str(qwerty_lkp_list[i]) + "\n" )  
+    
+    print ("Keystroks in Inscript :  " +   str(inscript_counter))   
+    print ("Keystroks in Qwerty :  " +   str(qwerty_counter))   
 
 if __name__ == '__main__':
     main()
