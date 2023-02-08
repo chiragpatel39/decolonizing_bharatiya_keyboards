@@ -30,7 +30,8 @@ class ScriptConverter():
             #print (current_char,prev_char)
             if prev_char in vyanjana and i != 0 and current_char not in swara_chihna:
             #   print ("prev_char is vyanjana")
-               self.roman_word = self.roman_word + "a"
+               if current_char != ',' and current_char != '.':
+                    self.roman_word = self.roman_word + "a"
             self.roman_word = self.roman_word + indic_to_roman[current_char]
             prev_char = current_char
     
@@ -102,9 +103,14 @@ def get_lang_info(lang_):
     #print (indic_symbols)
     
 def main():
+    if len(sys.argv) != 4:
+        print ("USAGE: python inscript_vs_transliteration.py <lang> <input file> <output file>" )
+        print ("Ex: python inscript_vs_transliteration.py gujarati sample_text/gujarati_sample.txt output/trans.txt" )
+        sys.exit("Invalid Usage")
     lang_ = sys.argv[1]
     infile = sys.argv[2]
     outfile = sys.argv[3]
+
     global indic_symbols, vyanjana, swara, swara_chihna, indic_to_roman, inscript_to_keypress, qwerty_to_keypress;
     indic_symbols, vyanjana, swara, swara_chihna, indic_to_roman, inscript_to_keypress, qwerty_to_keypress = get_lang_info(lang_)
 
@@ -123,6 +129,8 @@ def main():
     
     
     for line in inlines:
+        if  (len(line)) == 0:
+            continue
         normline = ""
         roman_line = "" 
         words =  line.split()
@@ -152,7 +160,7 @@ def main():
             f.write(indic_normlines[i] + "\t" + roman_lines[i] + "\t" + str(inscript_lkp_list[i]) + "\t" +  str(qwerty_lkp_list[i]) + "\n" )  
     
     print ("Keystroks in Inscript :  " +   str(inscript_counter))   
-    print ("Keystroks in Qwerty :  " +   str(qwerty_counter))   
-
+    print ("Keystroks in Transliteration  :  " +   str(qwerty_counter))   
+    print ("Transliteration requires : " + str((qwerty_counter-inscript_counter)/float(inscript_counter) * 100.0) + " " + "more skystrokes"  )
 if __name__ == '__main__':
     main()
