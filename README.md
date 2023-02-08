@@ -1,3 +1,3 @@
 # decolonizing_bharatiya_keyboards
 
-![alt txt](https://user-images.githubusercontent.com/8291370/217516205-036d2578-c871-4a1d-89c0-5322945f8cd2.jpg)
+![alt txt](https://user-images.githubusercontent.com/8291370/217518824-b3f736da-99c2-4276-b263-7973f51fe4ee.jpg)
