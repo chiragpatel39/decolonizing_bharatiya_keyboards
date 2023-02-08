@@ -24,6 +24,7 @@ Most people (more than 95%) type Bhartiya languages using transliteration. There
 In my testing with Gujarati, transliteration required 23% more keystrokes.
 
 ### Question : 
-Why we don't have Bharatiya alphabets on keyboards. Rest of the world have it. The image shown above is Thai Magic Keyboard from Apple.
+Why we don't have Bharatiya alphabets on keyboards? 
+Rest of the world have it. The image shown above is Thai Magic Keyboard from Apple.
 
 
