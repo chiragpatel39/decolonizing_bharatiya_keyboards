@@ -16,6 +16,11 @@ Most people (more than 95%) type Bhartiya languages using transliteration. There
 If we start using direct typing using Inscript Keyboards then we would not face any of the issue.
 
 ### What is Inscript Keyboard:
+InScript (short for Indic Script) is the decreed standard keyboard layout for Indian scripts using a standard 104- or 105-key layout. This keyboard layout was standardised by the Government of India for inputting text in languages of India written in Brahmic scripts, as well as the Santali language, written in the non-Brahmic Ol Chiki script.
+It was developed by the Indian Government and supported by several public and private organisations. 
+This is the standard keyboard for 12 Indian scripts including Devanagari, Bengali, Gujarati, Gurmukhi, Kannada, Malayalam, Odia, Tamil and Telugu, among others. The InScript layout is built into most of the major operating systems including Windows (2000 and later), and most Linux and Mac OS systems
+
+![alt txt](resources/images/inscript_layout.png)
 
 ### Advantages of Inscript
 1. It requires less key strokes compared to transliteration.
