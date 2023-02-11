@@ -18,7 +18,7 @@ This repo calculates the average number of __keystrokes__ required to accurately
    
     * Similarly, Google's transliteration, __Google Input Tools__ https://www.google.com/inputtools/try works only within Google's platforms and Google Apps. Each character we type on these apps/platforms goes to Google's servers. Google knows how to make money using our data.  
         Until few years ago, Google used to give their Input Tools as a __free__ standalone application on Windows. Google has stopped the windows app as it no longer suits their business model (or they have collected enought data, why give it free now). You need to use __Chrome__ if you want to type using Google Input Tools. Again, Chrome is a commercial product.    
-7. We will get different typing experince on different platforms for same roman character sequence. e.g. As of now typing __'jan'__ gives __"જન (जन)"__ as a first prediction, where as Google Input Tools gives __'જાણ (जाण)'__. Once we get used to typing with specific platform, it will act as a deterrent to our desire to change.
+7. We will get inconsistent typing experince if we switch platforms. e.g. As of now(11/02/2023): For character sequence  __'j a n'__, Microsoft gives __"જન (जन)"__ as a first prediction, where as Google Input Tools gives __'જાણ (जाण)'__. Once we get used to typing with specific platform, it will act as a deterrent to our wish to switch platform.
 8. The platform companies are pushing transliteration instead of giving hardware solutions because they wants us to get addicted to the their platform's transliteration. They can make money as long as we are on their platform.     
 
 ### What is the solution?
@@ -36,19 +36,30 @@ The InScript keyboard layout looks like below:
 
 ### Advantages of Inscript
 1. It requires less key strokes compared to transliteration.
-2. Inscript is designed specifically for Bharatiya languages. Indian Languages follow consonent-vowel sequence. Left side of keyboard has Swaras and right side has Vyanjanas. Therefore, we can type faster with alternate hand action.
-3. The position of alphabets is same across all the Indian Languages. So If one learns to type in Telugu, he can type in Marathi also.
-4. It is very easy to learn as it uses inherent logic of Bharatiya alphabets.
-5. No mental stress as it is no longer require to convert every word to roman script in mind.
-6. Accurate: It is direct typing method. It will type what you want. It can type "Vande Mataram" easily.
-
+2. It is 100% accurate. It is direct typing method. It will type what you want. It can type our __national song__ easily.
+3. Inscript is designed specifically for Bharatiya languages. Indian Languages follow consonent-vowel sequence. Left side of keyboard has Swaras and right side has Vyanjanas. Therefore, we can type faster with alternate hand action.
+   ![alt txt](resources/images/Inscript_hindi_keyboard_finger_placement.png)
+4. The position of alphabets is same across all the Indian languages. Therefore,  if one learn to type in Telugu, s/he can type in Marathi also.
+5. It is very easy to learn as it uses inherent logic of Bharatiya alphabets.  
+      For Example, look at the below image :
+      ![alt_txt](resources/images/inscript_layout_consonent_positions.png)
+      * Consonents are arranged in verticle postion as per their Varga (वर्ग) as shown using red line. प Varg = (प,फ,ब,भ), क Varg = (क,ख,ग,घ), त Varg = (त,थ,द,ध), च Varg = (च,छ,ज,झ), ट Varg = (ट,ठ,ड,ढ).
+      * महाप्राण (aspirated) consonents are positioned in the shifted position of their corresponding अल्पप्राण (non-aspirated) consonents. e.g. (क,ख), (प,फ), and  (स,श) etc.       
+      * Short and long vowel signs (चिह्व) are arranged in verticle position as shown in __blue__ line.  e.g. (्,ा),(ि,ी), (ु,ू),(े,ै) and (ो,औ).
+      * The Vowel character is located in shifted position of their corresponding sign. e.g. (्,अ), (ा,आ), (ि,इ), (ी,ई), (ु,उ), (ू,ऊ), (े,ए), (ै,ऐ), and (ो,ओ)  (ौ,औ).
+6. Less mental effort as it is no longer required to convert every word into roman script in mind.
 
 
 ### Results:
-In my testing with Gujarati, transliteration required 23% more keystrokes.
+In my testing with Gujarati, transliteration required 23% more keystrokes.  
+
+Typing time and number of keystrokes are highly correlated. Therefore, we can conclude that typing with transliteration requires 23% more time.
 
 ### Question : 
 Why we don't have Bharatiya alphabets on keyboards? 
 Rest of the world have it. The image shown above is Thai Magic Keyboard from Apple.
 
 
+### TODO 
+1. Mesaure the accuracy of Microsoft Transliteration.
+2. Calculate the character frequency of Indic characters: unigram and bigram
