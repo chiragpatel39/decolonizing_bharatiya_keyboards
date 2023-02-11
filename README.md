@@ -6,11 +6,16 @@
 Most people (more than 95%) type Bhartiya languages using transliteration. There are many disadvantages of typing using transliteration compared to direct typing using inscript keyboard.
 
 ### Flaws of Transliteration: 
-1. We first convert a word from our native script to Roman equivalent and then transliterator converts it back it into Bhartiya Scripts.
+1. We first convert a word from our native script to Roman equivalent and then transliterator converts it back into Bhartiya Scripts.
 2. Transliterators are not 100% accuracte. In fact, it becomes highly inacurate when we use uncommon words.
-3. Some words just cannnot be written with transliteration. Try writing our national song : 'Vande Mataram' using it.
+3. Some words just cannnot be written with transliteration. Try writing our national song : 'Vande Mataram' using it. We can only write words which are in the training dataset of some tech company. We cannot create new vocabulary in our languages. In addition, we cannot share words among Bhartiya Bhashas, e.g. I cannot write word 'आत्मोचित'(meaning Appropiate for Atma and which is proper word is Hindi and Samskrit) - in Gujarati Script using Microsoft Window's transliteration.    
 4. We also make mistakes in mental conversion of native script to roman script. 
 5. We need to use more keystrokes to write same word. Ex. To write चिराग using Inscript Keyboard, I need 5 keystrokes (च,ि,र,ा,ग). Transliteration would require   6 keystrokes (c,h,i,r,a,g). 
+
+### What is the solution?
+If we start using direct typing using Inscript Keyboards then we would not face any of the issue.
+
+### What is Inscript Keyboard:
 
 ### Advantages of Inscript
 1. It requires less key strokes compared to transliteration.
