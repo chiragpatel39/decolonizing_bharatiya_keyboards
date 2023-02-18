@@ -78,7 +78,7 @@ Apple sells macbooks in USA with 16 keyboard layout options in USA. https://www.
 ![alt txt](resources/images/apple_keyboard_options_USA.jpg)  
 
 And it does not end here:
-It sells macbook with 17 keyboard layouts in Belgium, 10 in Czech Republic, 16 in Denmark, 18 in Germany. 17 in Spain, 17 in France, 
+It sells macbook with 17 keyboard layout options in Belgium, 10 in Czech Republic, 16 in Denmark, 18 in Germany. 17 in Spain, 17 in France, 18 in Ireland, 17 in Italy, 17 in Luxeumbourg, 11 in Hungery, 16 in Netherlands, 15 in Norway, 16 in Austria, 5 in Poland, 16 in Portugal, 17 in Switzerland, 15 in Finland, 16 in Sweden, 4 in Turkey, 18 in UK,  7 in Australia, 8 in China, 7 in Hong Kong, 7 in Japan, 4 in Korea, 5 in Malasia, 7 in New Zealand, 5 in Singapore, 5 in Taiwan, and  4 in Thailand, 4 in UAE.
 
 
 
