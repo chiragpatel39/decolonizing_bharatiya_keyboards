@@ -70,11 +70,15 @@ Rest of the world have it. Almost all countries have their own keyboard layouts.
 ### But India is a multi-lingual country  
 This is a classic argument made by pro-english when it comes to Bharat's Languages.  
 The argument is : Since India is a multilingula country, English serves as a neutral language. Developing anything in more than one language is not possible.  
-The inherent assumption is in this argument is each nation should have __exactly one__ keyboard layout. Also they assume that the same principle (one nation one keyboard layout) is followed in the other countries. Nothing can be farther from truth than this belief.  
+The inherent assumption is in this argument is each nation should have __exactly one__ keyboard layout. Also they assume that the same principle (one nation one keyboard layout) is followed in the other countries.  Also, it is not practical for a manufacturer to sell keyboar with more than one layout in one country. Nothing can be farther from truth than this belief.  
 
 Let's verify this belief taking the example of Apple which is known to be the __least__ customization-friendly.
 
-Apple sells macbooks in USA with 16 keyboard layout options in USA. https://www.apple.com/shop/buy-mac/macbook-air/midnight-apple-m2-chip-with-8-core-cpu-and-8-core-gpu-256gb
+Apple sells macbooks in USA with 16 keyboard layout options in USA. https://www.apple.com/shop/buy-mac/macbook-air/midnight-apple-m2-chip-with-8-core-cpu-and-8-core-gpu-256gb  
+![alt txt](resources/images/apple_keyboard_options_USA.jpg)  
+
+And it does not end here:
+It sells macbook with 17 keyboard layouts in Belgium, 10 in Czech Republic, 16 in Denmark, 18 in Germany. 17 in Spain, 17 in France, 
 
 
 
