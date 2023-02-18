@@ -53,11 +53,29 @@ The InScript keyboard layout looks like below:
 ### Results:
 In my testing with Gujarati, transliteration required 23% more keystrokes.  
 
-Typing time and number of keystrokes are highly correlated. Therefore, we can conclude that typing with transliteration requires 23% more time.
+Typing time and number of keystrokes are highly correlated. Therefore, we can conclude that -  "__typing with transliteration requires 23% more time.__"  
+Let us remember, that typing with transliteration also requires us to do mental conversion of Bhartiya Script to Roman Script. We can assume that this conversion requires non zero amount of time as with the any mental process. Therefore, we would now have to update our conclusion:  
+
+   __Conclusion:__ Typing with transliteration would require ___at least___ 23% more time.
+
+
+
+
 
 ### Question : 
 Why we don't have Bharatiya alphabets on keyboards? 
-Rest of the world have it. The image shown above is Thai Magic Keyboard from Apple.
+Rest of the world have it. Almost all countries have their own keyboard layouts. The image shown in title is _Thai_ Magic Keyboard from Apple.
+
+
+### But India is a multi-lingual country  
+This is a classic argument made by pro-english when it comes to Bharat's Languages.  
+The argument is : Since India is a multilingula country, English serves as a neutral language. Developing anything in more than one language is not possible.  
+The inherent assumption is in this argument is each nation should have __exactly one__ keyboard layout. Also they assume that the same principle (one nation one keyboard layout) is followed in the other countries. Nothing can be farther from truth than this belief.  
+
+Let's verify this belief taking the example of Apple which is known to be the __least__ customization-friendly.
+
+Apple sells macbooks in USA with 16 keyboard layout options in USA. https://www.apple.com/shop/buy-mac/macbook-air/midnight-apple-m2-chip-with-8-core-cpu-and-8-core-gpu-256gb
+
 
 
 ### TODO 
