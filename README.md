@@ -75,13 +75,27 @@ The inherent assumption is in this argument is each nation should have __exactly
 Let's verify this belief taking the example of Apple which is known to be the __least__ customization-friendly.
 
 Apple sells macbooks in USA with 16 keyboard layout options in USA. https://www.apple.com/shop/buy-mac/macbook-air/midnight-apple-m2-chip-with-8-core-cpu-and-8-core-gpu-256gb  
+
 ![alt txt](resources/images/apple_keyboard_options_USA.jpg)  
 
-And it does not end here:
-It sells macbook with 17 keyboard layout options in Belgium, 10 in Czech Republic, 16 in Denmark, 18 in Germany. 17 in Spain, 17 in France, 18 in Ireland, 17 in Italy, 17 in Luxeumbourg, 11 in Hungery, 16 in Netherlands, 15 in Norway, 16 in Austria, 5 in Poland, 16 in Portugal, 17 in Switzerland, 15 in Finland, 16 in Sweden, 4 in Turkey, 18 in UK,  7 in Australia, 8 in China, 7 in Hong Kong, 7 in Japan, 4 in Korea, 5 in Malasia, 7 in New Zealand, 5 in Singapore, 5 in Taiwan, and  4 in Thailand, 4 in UAE.
 
+And it does not end here:
+It sells macbook with 17 keyboard layout options in Belgium, 10 in Czech Republic, 16 in Denmark, 18 in Germany. 17 in Spain, 17 in France, 18 in Ireland, 17 in Italy, 17 in Luxeumbourg, 11 in Hungary, 16 in Netherlands, 15 in Norway, 16 in Austria, 5 in Poland, 16 in Portugal, 17 in Switzerland, 15 in Finland, 16 in Sweden, 4 in Turkey, 18 in UK,  7 in Australia, 8 in China, 7 in Hong Kong, 7 in Japan, 4 in Korea, 5 in Malasia, 7 in New Zealand, 5 in Singapore, 5 in Taiwan, and  4 in Thailand, 4 in UAE.  
+
+According to https://support.apple.com/en-in/HT201794, Apple sells their laptops with 40 distinct keyboard layouts.   
+
+Figures from only Apple are shown here as an illustration only. It is not the only company which customize their product based on local needs. Other manufactureres are also localizing their products. 
+
+### But India is developing country ....
+Before someone argue that India is a poor country and beggers have no choice, let me state that Maharashtra's GDP is more than double of Hungary's GDP (11 layout options). Even Gujarat has higher GDP than Hungary. Before you think that our laptop market is small, let me infrom you that India sells more PCs in 3 months than the populations of Norway. https://www.canalys.com/newsroom/india-PC-market-Q1-2022  
+
+### Are we right in blaming Manufatureres?
+No. While it is true that manufatureres sometime exploit their monopoly position in the market, they do responds to local needs. In our case, there is no demand for bilingual Keyboards. I am not sure if Indians would appreciate the presence of their mother tongue characters on Keyboards.  We have internalized the myth that __anything modern has to be in English__. Manufactueres are just exploiting our colonized mind.
 
 
 ### TODO 
 1. Mesaure the accuracy of Microsoft Transliteration.
 2. Calculate the character frequency of Indic characters: unigram and bigram
+3. Adjust the count for few characters
+4. Add more languages.
+
