@@ -70,17 +70,17 @@ Rest of the world have it. Almost all countries have their own keyboard layouts.
 ### But India is a multi-lingual country  
 This is a classic argument made by pro-english when it comes to Bharat's Languages.  
 The argument is : Since India is a multilingula country, English serves as a neutral language. Developing anything in more than one language is not possible.  
-The inherent assumption is in this argument is each nation should have __exactly one__ keyboard layout. Also they assume that the same principle (one nation one keyboard layout) is followed in the other countries.  Also, it is not practical for a manufacturer to sell keyboar with more than one layout in one country. Nothing can be farther from truth than this belief.  
+The inherent assumption in this argument is each nation should have __exactly one__ keyboard layout. Also they assume that the same principle (one nation one keyboard layout) is followed in the other countries as it is not practical for a manufacturer to sell keyboard with more than one layout in one country. Nothing can be farther from truth than this belief.  
 
 Let's verify this belief taking the example of Apple which is known to be the __least__ customization-friendly.
 
-Apple sells macbooks in USA with 16 keyboard layout options in USA. https://www.apple.com/shop/buy-mac/macbook-air/midnight-apple-m2-chip-with-8-core-cpu-and-8-core-gpu-256gb  
+Apple sells macbooks with 16 keyboard layout options in USA. https://www.apple.com/shop/buy-mac/macbook-air/midnight-apple-m2-chip-with-8-core-cpu-and-8-core-gpu-256gb  
 
 ![alt txt](resources/images/apple_keyboard_options_USA.jpg)  
 
 
 And it does not end here:
-It sells macbook with 17 keyboard layout options in Belgium, 10 in Czech Republic, 16 in Denmark, 18 in Germany. 17 in Spain, 17 in France, 18 in Ireland, 17 in Italy, 17 in Luxeumbourg, 11 in Hungary, 16 in Netherlands, 15 in Norway, 16 in Austria, 5 in Poland, 16 in Portugal, 17 in Switzerland, 15 in Finland, 16 in Sweden, 4 in Turkey, 18 in UK,  7 in Australia, 8 in China, 7 in Hong Kong, 7 in Japan, 4 in Korea, 5 in Malasia, 7 in New Zealand, 5 in Singapore, 5 in Taiwan, and  4 in Thailand, 4 in UAE.  
+It sells macbook with 17 keyboard layout options in Belgium, 10 in Czech Republic, 16 in Denmark, 18 in Germany, 17 in Spain, 17 in France, 18 in Ireland, 17 in Italy, 17 in Luxeumbourg, 11 in Hungary, 16 in Netherlands, 15 in Norway, 16 in Austria, 5 in Poland, 16 in Portugal, 17 in Switzerland, 15 in Finland, 16 in Sweden, 4 in Turkey, 18 in UK,  7 in Australia, 8 in China, 7 in Hong Kong, 7 in Japan, 4 in Korea, 5 in Malasia, 7 in New Zealand, 5 in Singapore, 5 in Taiwan, and  4 in Thailand, 4 in UAE.  
 
 According to https://support.apple.com/en-in/HT201794, Apple sells their laptops with 40 distinct keyboard layouts.   
 
