@@ -51,12 +51,12 @@ The InScript keyboard layout looks like below:
 
 
 ### Results:
-In my testing with Gujarati, transliteration required 23% more keystrokes.  
+In my testing with Gujarati, transliteration required 21.58% more keystrokes.  
 
-Typing time and number of keystrokes are highly correlated. Therefore, we can conclude that -  "__typing with transliteration requires 23% more time.__"  
+Typing time and number of keystrokes are highly correlated. Therefore, we can conclude that -  "__typing with transliteration requires 21.58% more time.__"  
 Let us remember, that typing with transliteration also requires us to do mental conversion of Bhartiya Script to Roman Script. We can assume that this conversion requires non zero amount of time as with the any mental process. Therefore, we would now have to update our conclusion:  
 
-   __Conclusion:__ Typing with transliteration would require ___at least___ 23% more time.
+   __Conclusion:__ Typing with transliteration would require ___at least___ 21.58% more time.
 
 
 
